@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const API_URL = 'http://localhost:3030/api/test/'; //our database localhost
+const API_URL = 'https://library-application-backend.onrender.com/api/test/'; //our database localhost
 
 @Injectable({
   providedIn: 'root',

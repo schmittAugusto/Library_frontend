@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Genre } from '../models/genres.model';
 
-const baseUrl = 'http://localhost:3030/api/genres';
+const baseUrl = 'https://library-application-backend.onrender.com/api/genres';
 @Injectable({
     providedIn: 'root'
 })

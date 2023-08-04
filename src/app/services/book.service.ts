@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Book } from '../models/book.model';
 
-const baseUrl = 'http://localhost:3030/api/books';
+const baseUrl = 'https://library-application-backend.onrender.com/api/books';
 
 @Injectable({
   providedIn: 'root'
