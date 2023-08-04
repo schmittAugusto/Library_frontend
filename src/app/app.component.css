@@ -1,0 +1,7 @@
+.app,
+div {
+  background-color: #efefef;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black; /* Set the color of navbar links to black */
+}
