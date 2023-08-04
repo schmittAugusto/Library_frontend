@@ -49,6 +49,6 @@ export class LoginComponent implements OnInit {
   }
 
   reloadPage(): void {
-    window.location.replace("https://main--precious-donut-b7dbe4.netlify.app");
+    window.location.replace("https://comp229library.netlify.app");
   }
 }
